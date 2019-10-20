@@ -1,0 +1,21 @@
+{
+  "name": "spreadsheet",
+  "version": "0.0.1",
+  "description": "a ambitious new spreadsheet software",
+  "main": "index.js",
+  "scripts": {
+    "serve": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/subu28/spreadsheet.git"
+  },
+  "author": "Subhash",
+  "bugs": {
+    "url": "https://github.com/subu28/spreadsheet/issues"
+  },
+  "homepage": "https://github.com/subu28/spreadsheet#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
