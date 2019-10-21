@@ -1,0 +1,28 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.sheet {
+  display: grid;
+  grid: repeat(15, 25px) / repeat(15, 100px);
+  position: relative;
+}
+
+.sheet > div {
+  border: 1px dashed #aaa;
+  display: flex;
+  align-items: center;
+  padding: 2px;
+  margin: -1px 0 0 -1px;
+  color: #666;
+  outline: none;
+}
+
+.sheet > div:hover, .sheet > div:focus {
+  border-style: solid;
+  border-color: #f00;
+  z-index: 1;
+  color: #000;
+}
